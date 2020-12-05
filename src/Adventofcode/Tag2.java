@@ -1,5 +1,7 @@
 package Adventofcode;
 
+import SimpleCSVReader.SimpleCSVReader;
+
 /***
  * --- Tag 2: Passwortphilosophie ---
  * Ihr Flug startet in wenigen Tagen vom Küstenflughafen. Der einfachste Weg von hier zur Küste führt über eine Rodelbahn .
@@ -24,5 +26,20 @@ package Adventofcode;
 public class Tag2 {
     public static void main(String[] args) {
 
+        String[][] orgPasswortListe = SimpleCSVReader.readCSV("C:\\Users\\DCV\\IdeaProjects\\passwortListe.csv", " ");
+        double richtigesPasswort = 0;
+        for (String[] strings : orgPasswortListe) {
+            String[] passwort = {strings[0], strings[1],
+                    strings[2], strings[3]};
+            int zahler = 0;
+            for (int j = 0; j < passwort[3].length(); j++) {
+                char s = passwort[3].charAt(j);
+                if (passwort[2].charAt(0) == (s)) zahler++;
+            }
+            if (zahler >= Integer.parseInt(passwort[0]) && zahler <= Integer.parseInt(passwort[1])) {
+                richtigesPasswort++;
+            }
+        }
+        System.out.println("Es sind " + richtigesPasswort + " Passwörter korrekt.");
     }
 }
