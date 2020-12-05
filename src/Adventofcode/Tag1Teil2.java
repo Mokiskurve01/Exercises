@@ -33,7 +33,7 @@ package Adventofcode;
  *
  * Was ist in Ihrer Spesenabrechnung das Produkt der drei Einträge, die sich summieren 2020?
  */
-public class Tag1ReparaturMeldenTeil2 {
+public class Tag1Teil2 {
     public static void main(String[] args) {
 
         int[] spesen = {1935, 1956, 1991, 1425, 1671, 1537, 1984, 1569, 1873, 1840, 1720, 1937, 1823, 1625, 1727, 1812,
@@ -49,17 +49,17 @@ public class Tag1ReparaturMeldenTeil2 {
                 1853, 1911, 1857, 1739, 1744, 1627, 1729, 1745, 1845, 1582, 1884, 1883, 1941, 1764, 1685, 1791, 1837,
                 1697, 1742, 1781, 1948, 1876, 1989, 1643, 1871, 1906, 1726, 1958, 1502, 1927, 1946,};
 
-
+        int summe = 0;
         for (int i = 0; i < spesen.length; i++) {
             int zahl1 = spesen[i];
             for (int zahl2 : spesen) {
                 for (int zahl3 : spesen) {
                     if (zahl1 + zahl2 + zahl3 == 2020) {
-                        System.out.println("Die Summe beträgt " + zahl1 * zahl2 * zahl3 + ".");
-                        i = spesen.length;
+                        summe = zahl1 * zahl2 * zahl3;
                     }
                 }
             }
         }
+        System.out.println("Die Summe beträgt " + summe + ".");
     }
 }

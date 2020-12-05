@@ -37,7 +37,7 @@ import java.util.Arrays;
  *
  * Was ist in Ihrer Spesenabrechnung das Produkt der drei Einträge, die sich summieren 2020?
  */
-public class Tag1ReparaturMelden {
+public class Tag1 {
     public static void main(String[] args) {
 
         int[] spesen = {1935, 1956, 1991, 1425, 1671, 1537, 1984, 1569, 1873, 1840, 1720, 1937, 1823, 1625, 1727, 1812,
