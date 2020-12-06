@@ -10,10 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="Tag3">
-      <change afterPath="$PROJECT_DIR$/src/Adventofcode/Tag3Teil2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="6.12.2020" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -223,7 +220,63 @@
       <option name="project" value="LOCAL" />
       <updated>1607263711467</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tag3-Teil2">
+      <created>1607267106574</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267106574</updated>
+    </task>
+    <task id="LOCAL-00014" summary="5.12.2020">
+      <created>1607267193409</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267193409</updated>
+    </task>
+    <task id="LOCAL-00015" summary="6.12.2020">
+      <created>1607267273891</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267273891</updated>
+    </task>
+    <task id="LOCAL-00016" summary="6.12.2020">
+      <created>1607267293326</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267293326</updated>
+    </task>
+    <task id="LOCAL-00017" summary="6.12.2020">
+      <created>1607267307622</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267307622</updated>
+    </task>
+    <task id="LOCAL-00018" summary="6.12.2020">
+      <created>1607267311160</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267311160</updated>
+    </task>
+    <task id="LOCAL-00019" summary="6.12.2020">
+      <created>1607267315063</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267315063</updated>
+    </task>
+    <task id="LOCAL-00020" summary="6.12.2020">
+      <created>1607267322577</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607267322577</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +301,9 @@
     <MESSAGE value="Tag2" />
     <MESSAGE value="Tag2-Teil2" />
     <MESSAGE value="Tag3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag3" />
+    <MESSAGE value="Tag3-Teil2" />
+    <MESSAGE value="5.12.2020" />
+    <MESSAGE value="6.12.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.12.2020" />
   </component>
 </project>
