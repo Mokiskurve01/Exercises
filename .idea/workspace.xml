@@ -10,8 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="Tag2-Teil2">
-      <change afterPath="$PROJECT_DIR$/src/Adventofcode/Tag3.java" afterDir="false" />
+    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="Tag3">
+      <change afterPath="$PROJECT_DIR$/src/Adventofcode/Tag3Teil2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +47,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Oktober1.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Adventofcode" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="SimpleCSVReader" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Adventofcode" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Tag3">
+  <component name="RunManager" selected="Application.Tag3Teil2">
     <configuration name="Tag1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adventofcode.Tag1" />
       <module name="Exercises" />
@@ -70,19 +70,6 @@
     </configuration>
     <configuration name="Tag1Teil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Adventofcode.Tag1Teil2" />
-      <module name="Exercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Adventofcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tag2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adventofcode.Tag2" />
       <module name="Exercises" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tag3Teil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adventofcode.Tag3Teil2" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adventofcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tag3Teil2" />
         <item itemvalue="Application.Tag3" />
         <item itemvalue="Application.Tag1Teil2" />
         <item itemvalue="Application.Tag1" />
         <item itemvalue="Application.Tag2Teil2" />
-        <item itemvalue="Application.Tag2" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607252874959</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Tag3">
+      <created>1607263711467</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607263711467</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +247,7 @@
     <MESSAGE value="Tag1-Teil2" />
     <MESSAGE value="Tag2" />
     <MESSAGE value="Tag2-Teil2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tag2-Teil2" />
+    <MESSAGE value="Tag3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tag3" />
   </component>
 </project>
