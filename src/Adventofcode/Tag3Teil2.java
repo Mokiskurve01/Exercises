@@ -23,12 +23,12 @@ public class Tag3Teil2 {
     public static void main(String[] args) {
 
         String[][] rodelbahn = SimpleCSVReader.readCSV("C:\\Users\\DCV\\IdeaProjects\\Rodelbahn.csv", "");
-        double z1=68;
-        double z2=268;
-        double z3=73;
-        double z4=75;
-        double z5=31;
-        double summe=z1*z2*z3*z4*z5;
+        double z1 = 68;
+        double z2 = 268;
+        double z3 = 73;
+        double z4 = 75;
+        double z5 = 31;
+        double summe = z1 * z2 * z3 * z4 * z5;
         System.out.println(summe);
         String pos = "X";
         String posFrei = "O";
