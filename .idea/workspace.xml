@@ -10,7 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="PasswortListe importiert" />
+    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="PasswortListe importiert">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adventofcode/Tag2Teil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adventofcode/Tag2Teil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SimpleCSVReader/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SimpleCSVReader/CSVReader.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +56,7 @@
       <recent name="SimpleCSVReader" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tag2">
+  <component name="RunManager" selected="Application.Tag2Teil2">
     <configuration name="CSVReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleCSVReader.CSVReader" />
       <module name="Exercises" />
@@ -104,12 +109,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tag2Teil2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adventofcode.Tag2Teil2" />
+      <module name="Exercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adventofcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tag2Teil2" />
         <item itemvalue="Application.Tag2" />
         <item itemvalue="Application.CSVReader" />
         <item itemvalue="Application.Tag1Teil2" />
-        <item itemvalue="Application.Tag1ReparaturMelden" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607199600809</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="PasswortListe importiert">
+      <created>1607200022572</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607200022572</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,53 +195,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spesen Summe" />
     <MESSAGE value="Spesen Summe drei zahlen" />
     <MESSAGE value="PasswortListe importiert" />
     <option name="LAST_COMMIT_MESSAGE" value="PasswortListe importiert" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607191836841">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607191836841" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1607199563056">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607199563056" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1607199563056">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607199563056" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1607199563056">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607199563056" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1607199563056">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607199563056" />
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom" timestamp="1607194578135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607194578135" />
-    <state width="1493" height="250" key="GridCell.Tab.1.center" timestamp="1607194578135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1607194578135" />
-    <state width="1493" height="250" key="GridCell.Tab.1.left" timestamp="1607194578135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1607194578135" />
-    <state width="1493" height="250" key="GridCell.Tab.1.right" timestamp="1607194578135">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="250" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1607194578135" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607199603979">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607199603979" />
   </component>
 </project>

@@ -1008,6 +1008,7 @@ public class CSVReader {
 
 
         text=text.replaceAll("-"," ");
+        text=text.replaceAll(":","");
 
         System.out.println(text);
     }

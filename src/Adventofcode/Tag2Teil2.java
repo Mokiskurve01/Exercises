@@ -3,7 +3,6 @@ package Adventofcode;
 import SimpleCSVReader.SimpleCSVReader;
 
 /***
- * --- Tag 2: Passwortphilosophie ---
  * --- Zweiter Teil ---
  * Obwohl Sie die Passwörter anscheinend korrekt validiert haben, scheinen sie nicht den Erwartungen des offiziellen Toboggan Corporate Authentication Systems zu entsprechen.
  *
@@ -16,25 +15,22 @@ import SimpleCSVReader.SimpleCSVReader;
  * 1-3 a: abcdeist gültig : Position 1enthält aund Position 3nicht.
  * 1-3 b: cdefgist ungültig : weder Position 1noch Position 3enthält b.
  * 2-9 c: cccccccccist ungültig : sowohl Position 2als auch Position 9enthalten c.
- * Wie viele Passwörter sind gemäß der neuen Interpretation der Richtlinien gültig ?
  */
 public class Tag2Teil2 {
     public static void main(String[] args) {
 
         String[][] orgPasswortListe = SimpleCSVReader.readCSV("C:\\Users\\DCV\\IdeaProjects\\passwortListe.csv", " ");
-        double richtigesPasswort = 0;
+        int richtigesPasswort = 0;
         for (String[] strings : orgPasswortListe) {
-            String[] passwort = {strings[0], strings[1],
-                    strings[2], strings[3]};
-            int zahler = 0;
-            for (int j = 0; j < passwort[3].length(); j++) {
-                char s = passwort[3].charAt(j);
-                if (passwort[2].charAt(0) == (s)) zahler++;
-            }
-            if (zahler >= Integer.parseInt(passwort[0]) && zahler <= Integer.parseInt(passwort[1])) {
+            int zahl1 = Integer.parseInt(strings[0]);
+            int zahl2 = Integer.parseInt(strings[1]);
+            if (strings[2].charAt(0) == strings[3].charAt(zahl1 - 1)
+                    && strings[2].charAt(0) != strings[3].charAt(zahl2 - 1)
+                    || (strings[2].charAt(0) != strings[3].charAt(zahl1 - 1)
+                    && strings[2].charAt(0) == strings[3].charAt(zahl2 - 1))) {
                 richtigesPasswort++;
             }
         }
-        System.out.println("Es sind " + richtigesPasswort + " Passwörter korrekt.");
+        System.out.println(richtigesPasswort);
     }
 }
