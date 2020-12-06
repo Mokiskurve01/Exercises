@@ -51,7 +51,7 @@
       <recent name="SimpleCSVReader" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tag1">
+  <component name="RunManager" selected="Application.Tag1Teil2">
     <configuration name="CSVReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleCSVReader.CSVReader" />
       <module name="Exercises" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Tag1Teil2" />
         <item itemvalue="Application.Tag1" />
         <item itemvalue="Application.Tag2Teil2" />
         <item itemvalue="Application.Tag2" />
         <item itemvalue="Application.CSVReader" />
-        <item itemvalue="Application.Tag1Teil2" />
       </list>
     </recent_temporary>
   </component>
