@@ -63,8 +63,8 @@ public class Tag3 {
      * In diesem Beispiel würden Sie beim Durchqueren der Karte mit dieser Steigung auf 7Bäume stoßen .
      */
     public static void main(String[] args) {
+        String[][] rodelbahn = SimpleCSVReader.readCSV("C:\\Users\\DCV\\IdeaProjects\\rodelbahn.csv", "");
 
-        String[][] rodelbahn = SimpleCSVReader.readCSV("C:\\Users\\DCV\\IdeaProjects\\Rodelbahn.csv", "");
         String pos = "X";
         String posFrei = "O";
         int zahler = 0;
