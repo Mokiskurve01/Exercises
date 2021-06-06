@@ -10,11 +10,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="6.12.2020">
-      <change afterPath="$PROJECT_DIR$/src/Adventofcode/Tag4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exercises/Adventofcode/Tag3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exercises/Adventofcode/Tag3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adventofcode/Tag3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adventofcode/Tag3.java" afterDir="false" />
+    <list default="true" id="c939e539-e5f9-4b0b-a901-aa87d3b037c7" name="Default Changelist" comment="gimp/bilder">
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Adventofcode/Tag4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Exercises.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Eye.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Gui$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Gui$TimerAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Gui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Image/daniel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Image/dcv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Image/gyula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Image/homer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/Augen/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/AugenDaniel/Eye.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/AugenDaniel/Gui$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/AugenDaniel/Gui$TimerAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/AugenDaniel/Gui.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Exercises/AugenDaniel/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Exercises.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Eye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Image/daniel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Image/dcv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Image/gyula.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Image/homer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Augen/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AugenDaniel/Eye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AugenDaniel/Gui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AugenDaniel/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607267497515</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="gimp/bilder">
+      <created>1622977192492</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1622977192492</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +364,7 @@
     <MESSAGE value="Tag3-Teil2" />
     <MESSAGE value="5.12.2020" />
     <MESSAGE value="6.12.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.12.2020" />
+    <MESSAGE value="gimp/bilder" />
+    <option name="LAST_COMMIT_MESSAGE" value="gimp/bilder" />
   </component>
 </project>
